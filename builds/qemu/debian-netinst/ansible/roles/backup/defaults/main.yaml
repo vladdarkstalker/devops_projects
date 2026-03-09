@@ -1,0 +1,10 @@
+backup_files:
+  - /etc/network/interfaces
+  - /etc/hosts
+  - /etc/hostname
+  - /etc/fstab
+  - /etc/apt/source.list
+  - /etc/resolv.conf
+  - /etc/default/grub
+  - /etc/ssh/sshd_config
+  - /etc/postgresql/15/main/postgresql.conf

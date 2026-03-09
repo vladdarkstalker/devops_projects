@@ -1,0 +1,8 @@
+- name: Create a backup directory if it does not exist
+  ansible.builtin.copy:
+    src: /home/user/source/file.txt
+    dest: /home/user/dest/file.txt
+    remote_src: true   # говорит, что src – это путь на удалённом хосте
+    owner: user
+    group: group
+    mode: '0644'
