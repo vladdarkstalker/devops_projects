@@ -2,7 +2,7 @@
   ansible.builtin.copy:
     src: /home/user/source/file.txt
     dest: /home/user/dest/file.txt
-    remote_src: true   # говорит, что src – это путь на удалённом хосте
+    remote_src: true
     owner: user
     group: group
     mode: '0644'
